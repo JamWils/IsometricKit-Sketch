@@ -1,0 +1,25 @@
+{
+    "name": "",
+    "description": "",
+    "author": "",
+    "homepage": "",
+    "version": 1.0,
+    "identifier": "com.example.sketch.isometric-kit",
+    "updateURL": "",
+    "compatibleVersion": 3,
+    "bundleVersion": 1,
+    "commands": [
+        {
+            "name": "Top",
+            "identifier": "top",
+            "shortcut": "ctrl shift t",
+            "script": "script.js",
+            "handler": "isometricTop"
+        }
+    ],
+    "menu": {
+        "items": [
+            "top"
+        ]
+    }
+}

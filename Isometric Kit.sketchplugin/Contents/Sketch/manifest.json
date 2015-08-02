@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "description": "",
-    "author": "",
-    "homepage": "",
+    "name": "Isometric Kit",
+    "description": "Special Actions to simplify isometric design in Sketch",
+    "author": "James Wilson",
+    "homepage": "www.noesisingenuity.com",
     "version": 1.0,
     "identifier": "com.example.sketch.isometric-kit",
     "updateURL": "",
@@ -15,11 +15,27 @@
             "shortcut": "ctrl shift t",
             "script": "script.js",
             "handler": "isometricTop"
+        },
+        {
+            "name": "Left",
+            "identifier": "left",
+            "shortcut": "ctrl shift l",
+            "script": "script.js",
+            "handler": "isometricLeft"
+        },
+        {
+            "name": "Right",
+            "identifier": "right",
+            "shortcut": "ctrl shift r",
+            "script": "script.js",
+            "handler": "isometricRight"
         }
     ],
     "menu": {
         "items": [
-            "top"
+            "top",
+            "left",
+            "right"
         ]
     }
 }
